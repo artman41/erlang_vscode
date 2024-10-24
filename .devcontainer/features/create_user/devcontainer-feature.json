@@ -1,0 +1,13 @@
+{
+    "name": "Remote User",
+    "id": "remote_user",
+    "version": "0.1.0",
+    "description": "Creates the remote user",
+    "options": {
+        "SHELL": {
+            "type": "string",
+            "default": "/bin/bash",
+            "description": "Shell to use for the remote user"
+        }
+    }
+}

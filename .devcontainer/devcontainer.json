@@ -1,0 +1,11 @@
+{
+    "image": "ubuntu:24.04",
+    "remoteUser": "container",
+    "updateRemoteUserUID": true,
+    "features": {
+        "./features/create_user": {},
+        "./features/erlang": {
+            "OTP_VERSION": "19.3.6.13"
+        }
+    }
+}

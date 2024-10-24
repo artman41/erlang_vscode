@@ -1,0 +1,29 @@
+{
+    "name": "Erlang",
+    "id": "erlang",
+    "version": "0.1.0",
+    "description": "Installs Erlang",
+    "options": {
+        "PACKAGES_URL": {
+            "type": "string",
+            "default": "https://packages.erlang-solutions.com/ubuntu/pool/",
+            "description": "Package URL"
+        },
+        "OTP_VERSION": {
+            "type": "string",
+            "enum": [
+                "18.1",
+                "18.3.4.11",
+                "19.3.6.13",
+                "20.3.8.26",
+                "21.3.8.17",
+                "22.3.4.9",
+                "23.3.4.5",
+                "24.3.3",
+                "25.3"
+            ],
+            "default": "19.3.6.13",
+            "description": "OTP Version"
+        }
+    }
+}
